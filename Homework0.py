@@ -31,7 +31,7 @@ def bisection_method(xl, xr):
          xr = midpoint
       else:   #sets the left endpoint equal to the midpoint if the root is in the right half
          xl = midpoint
-   return (np.array([a[1:]]), i + 2)
+   return (np.array([a[1:]]), i + 1)
       
 solA2 = newtons_method(-3)   #calls the newtons_method function with desired input
 solA3 = bisection_method(-3, 1)   #calls the bisection_method function with desired input
