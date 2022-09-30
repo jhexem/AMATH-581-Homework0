@@ -56,5 +56,3 @@ A = np.array([[-0.1, 3], [3, -0.1]])   #defines the matrix and vector
 b = np.array([[-0.2], [0.2]])
 
 A6 = np.linalg.solve(A, b)
-
-print(A1)
